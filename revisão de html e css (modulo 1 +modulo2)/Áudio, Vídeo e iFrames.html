@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio, Vídeo e iFrames</title>
+    <style>
+        audio {
+            width: 400px;
+        }
+        video, iframe {
+            width: 400px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Áudio, Vídeo e iFrames</h1>
+
+    <h2>Áudio</h2>
+    <audio controls autoplay loop preload="auto">
+        <source src="imagens-audio-video/audio.mp3" type="audio/mpeg">
+        <source src="imagens-audio-video/audio.ogg" type="audio/ogg">
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+
+    <h2>Vídeo</h2>
+    <video controls autoplay loop>
+        <source src="imagens-audio-video/video.mp4" type="video/mp4">
+        <source src="imagens-audio-video/video.webm" type="video/webm">
+        Seu navegador não suporta a reprodução de vídeo.
+    </video>
+
+    <h2>iframe</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RK93m-yxGDk?si=yvDCC0d17G0wCW-L" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
+
+<!--
+
+Tags principais:
+
+<audio>  = coloca um áudio no site
+<video>  = coloca um vídeo no site
+<iframe> = incorpora conteúdo de outro site (ex: vídeo do YouTube)
+
+Atributos de áudio e vídeo:
+
+controls   = mostra os botões de controle (play, pause, volume)
+autoplay   = inicia automaticamente ao carregar a página
+loop       = repete automaticamente quando termina
+preload    = define se o navegador carrega o arquivo antes do usuário apertar play
+             - auto: carrega todo o arquivo
+             - metadata: carrega apenas informações do arquivo (duração, tamanho, etc.)
+             - none: não carrega nada até o play
+poster     = (somente em <video>) define uma imagem inicial antes de apertar play
+
+<source> = permite adicionar várias versões do mesmo arquivo (formatos diferentes)
+type     = indica o tipo do arquivo (ex: audio/mpeg, video/mp4)
+srcset   = indica o caminho do arquivo
+media    = define a condição de tela ou dispositivo para usar aquele arquivo
+
+Atributos de <iframe>:
+
+frameborder     = define se o iframe terá borda (0 = sem borda)
+allow           = permite funções especiais no iframe (ex: autoplay, fullscreen)
+referrerpolicy  = controla se o site externo recebe informações da origem da página
+allowfullscreen = permite que o vídeo seja exibido em tela cheia
+
+-->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e imagens</title>
+    <style>
+        img{
+            height: auto;
+            width: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+<h1>links</h1>
+
+<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">pesquise mais sobre no google</a> <br>
+<a href="Links e imagens.html" target="_self">Se quiser aprender sobre links</a><br>
+
+
+ <h2>Imagens Responsivas</h2>
+  <picture>
+    <source media="(max-width: 640px)" srcset="imagens/imagem-pequena.png">
+    <source media="(min-width: 641px)" srcset="imagens/imagem-grande.png">
+    <img src="imagens/imagem-grande.png" alt="Imagem responsiva">
+  </picture>
+
+<!--
+
+a = serve para colocar link 
+
+href = local do link ou seja url do link 
+
+target = serve para saber se vai abrir o link interno, externo entre outros 
+
+rel = serve para colocar autonomia a pagina e segurança 
+
+picture = conteiner para ter responsatividade
+
+img = serve para adicionar imagem 
+
+source = serve para trocar a imagem automaticamente dependendo da largura da tela, não da altura
+
+media = é o parametros da quantidade de largura e altura 
+
+srcset = nome do arquivo da imagem
+
+src = caminho do arquivo da imagem
+
+alt = nome que da para imagem quando não funciona  
+
+-->
+</body>
+</html>
