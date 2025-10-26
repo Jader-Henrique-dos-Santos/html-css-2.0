@@ -1,3 +1,3 @@
 # html-css-2.0
 
-<a Código e citações.html/">link do site original</a>
+<a href="https://jader-henrique-dos-santos.github.io/html-css-2.0/">link do site original</a>
