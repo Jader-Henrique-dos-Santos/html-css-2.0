@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS básico e intermediário</title>
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Interno -->
+    <style>
+        body {
+            background-image: linear-gradient(to right, #fdddfd, #d6e0ff);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-decoration: underline;
+            background-color: #fdddfd;
+            border: 2px solid #333;
+            border-radius: 20px;
+            font-size: 40px;
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+            position: relative;
+        }
+
+        #titulo-principal {
+            color: darkblue;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            background-color: #201099;
+            color: white;
+            border-bottom: 3px dotted yellow;
+            height: 100px;
+            line-height: 100px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .subtitulo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h3 {
+            background-image: linear-gradient(to right, pink, purple);
+            color: white;
+            line-height: 80px;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        /* Pseudo-elementos */
+        h1::before {
+            content: "💡 ";
+        }
+
+        h2::first-letter {
+            color: yellow;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo-principal">Sempre é importante colocar tags e propriedades</h1>
+    <h2 class="subtitulo">Essas propriedades ajudam você</h2>
+    <h3>Como usar propriedades e tags</h3>
+
+</body>
+</html>

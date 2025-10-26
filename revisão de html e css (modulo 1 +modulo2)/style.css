@@ -1,0 +1,132 @@
+@charset "UTF-8"; /* Compatibilidade com acentuação */
+
+/* CSS Externo para estilização global */
+
+/* h1 externo */
+h1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    overflow: visible;
+}
+
+/* ID específico */
+#titulo-principal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Pseudo-elementos */
+h1::before {
+    content: "💡 ";
+}
+
+h2::first-letter {
+    color: yellow;
+    font-size: 50px;
+}
+
+/* Classe subtítulo */
+.subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Tag HTML | É a tag que comanda o terminal todo Explicação/uso */
+ 
+/* <!DOCTYPE html> | é o documento para demonstrar para o html */
+ 
+ /* <html> | é a raiz da tag html que mostra a parte do html */
+ 
+ /* <head> | serve para configurar algo não amostra ao 
+ publico*/
+ 
+ /* <meta> | serve para armazenar configurações para o 
+ site do html */
+ 
+ /* <title> | titulo da aba */
+
+ /* <link> | link para diversas funcionalidade como o css externo*/
+
+ /* <style> | é o estilo inline do css */
+
+ /* <body> | serve para mostrar conteudo algo que o publico vê */
+
+ /* <h1> |  titulo principal */
+
+ /* <h2> | subtítulo */
+
+ /* <h3> |  titulo menos importante */
+
+
+ /* Atributos | Explicação/uso */
+
+/* lang="pt-br" | serve para mostrar o idioma de uma pagina  */
+
+ /* charset="UTF-8" | serve para colocar configuração para letras e acentos especiais  */
+
+ /* name="viewport" | serve para melhorar a responsividade */
+
+ /* content="width=device-width, initial-scale=1.0" | serve para deixar a tela responsivo e um zoom top */
+
+ /* rel="stylesheet" | serve para relacionar o link */
+
+ /* href="style.css" | serve para identificar o nome do arquivo  */
+
+ /* id="titulo-principal" | serve para identificar uma tag */
+
+ /* class="subtitulo" | serve para classificar uma tag */
+
+ /* Propriedades CSS | Explicação/uso */
+ 
+/* background-image | é para deixar o fundo de uma imagem colorido */
+ 
+ /* font-family | é para deixar em um formato de uma fonte */
+ 
+ /* text-align | é para deixar o texto organizado em direções como centro esquerda e direita  */
+ 
+/* margin | cria espaço **fora** da borda do elemento, entre ele e outros elementos */
+ 
+/* padding | cria espaço **dentro** da borda do elemento, entre a borda e o conteúdo */
+ 
+ /* text-decoration | é para decorar seu texto com underline entre outros */
+ 
+ /* background-color | para deixar cor de fundo */
+ 
+ /* border | é para formar borda*/
+ 
+ /* border-radius | é para formar borda circular */
+ 
+ /* font-size | é para formar a quantidade da fonte */
+ 
+ /* width | é formar a largura */
+ 
+ /* box-shadow | é para deixar a borda com sombra */
+ 
+ /* color | é para deixar com cor o texto entre outros  
+ */
+ 
+/* font-weight | define a **espessura** da fonte, ex: normal, bold, 100 a 900 */
+ 
+/* letter-spacing | espaço entre letras */
+ 
+/* line-height | altura da linha do texto */
+ 
+ /* text-shadow | é para colocar sombra de texto */
+ 
+ /* display seria a formula de mostrar ou não o conteudo| */
+ 
+/* content | coloca texto ou símbolo com ::before ou ::after */
+ 
+ /* position | é uma forma de colocar uma posicionamento*/
+ 
+ /* top | é uma forma de deixar exemplo suas bordas para topo */
+ 
+ /* left | é uma forma de deixar exemplo suas bordas para esquerda */
+ 
+ /* right | é uma forma de deixar exemplo suas bordas para direta*/
+
+ /* bottom | é a formula de criar um bottom*/
+
+/* overflow | controla se o conteúdo que passa do limite aparece ou some */
+
+/* z-index | define quem fica na frente ou atrás dos elementos */

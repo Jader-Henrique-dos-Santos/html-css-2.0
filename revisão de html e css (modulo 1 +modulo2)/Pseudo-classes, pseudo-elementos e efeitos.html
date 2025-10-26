@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes, pseudo-elementos e efeitos</title>
+    <style>
+
+        h1:hover{
+            color: #109911;
+        }
+
+        .a1:active{
+            color: #881088;
+        }
+
+        .a2:visited{
+            color: aquamarine;
+        }
+
+
+        p::before{
+            content: "🔥";
+        }
+
+        h1::after{
+            content: "🔥";
+        }
+
+h1{
+    transition: color 1s;
+    transform: rotate(2.5deg);
+    opacity: 0.9;
+}
+     
+        
+h2{
+    text-decoration: underline;
+    background: linear-gradient(to right, rgb(23, 201, 112), rgb(102, 216, 102));
+    box-shadow: 5px 5px 10px rgba(236, 8, 8, 0.4);
+}
+
+button{
+    color: aquamarine;
+}
+
+
+    </style>
+</head>
+<body>
+    
+<h1>tome cuidado com link</h1> <br>
+
+<a class="a1" href="#">link</a> <br>
+
+<a class="a2" href="#">link</a><br>
+
+<p>e tambem emojis</p>
+
+<h2>cuidado tambem das fontes que vc usa</h2>
+
+<button>clique para mais</button>
+
+
+
+</body>
+
+
+<!--
+
+
+
+Pseudo-classes e efeitos 
+
+
+
+color = serve para colocar cor no texto
+
+transition = suaviza qualquer mudança de CSS, tipo quando passa o mouse e a cor ou tamanho muda devagar
+
+transform = gira, move, aumenta, reduz ou inclina elementos, como se estivesse mexendo na posição deles
+
+opacity = serve para deixar opaco a cor do texto 
+
+Pseudo-elementos
+
+content = serve para colocar emojis sabe ou outros tipos de desenhos
+
+
+
+Estilização avançada 
+
+
+
+text-decoration = põe linha no texto, tipo sublinhado ou riscado  
+
+box-shadow = cria sombra do elemento; controla pra onde vai, quanto fica borrado e a cor, tipo sombra real no mundo real
+
+background / linear-gradient = fundo degradê; pode ir em qualquer direção, faz cores se misturarem suavemente
+
+
+
+Aplicação completa (exemplo simplificado)
+
+
+
+h1:hover = serve para mudar de cor apos passar o mouse no texto ou link
+
+.a1:active = serve para mudar de cor quando clica no link
+
+.a2:visited = serve para mudar de cor quando visitar um link
+
+p::before = ele é sub elementos para antes do texto
+
+h1::after = ele é sub elementos para depois do texto 
+
+h1 = tranforma em titulo
+
+h2 = tranforma em subtitulo
+
+button = faz criar botões 
+
+
+
+-->
+
+</html>
