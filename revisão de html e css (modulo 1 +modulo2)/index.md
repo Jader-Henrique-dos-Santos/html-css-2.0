@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Meu site
+title: Meu-site
 ---
 
 # Bem-vindo ao meu site!
