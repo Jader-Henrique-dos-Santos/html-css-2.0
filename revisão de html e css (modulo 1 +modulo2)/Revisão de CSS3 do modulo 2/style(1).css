@@ -8,5 +8,21 @@ display: inline;
 }
 
 h2{
-display: ;
+display: block;
+}
+
+h3{
+display: inline-block;
+align-items: center;
+}
+
+h4{
+display: flex;
+gap: 10px;
+}
+
+p{
+display: grid;
+flex-direction: column;
+justify-content: center;
 }
