@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Geral(02)</title>
+
+    <style>
+        p{
+            margin-right: 40px;
+            margin-top: 40px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+
+            padding-left: 40px;
+            padding-top: 40px;
+            padding-right: 40px;
+            padding-block: 40px;
+
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+
+            min-height: 50px;
+            min-width: 50px;
+
+            max-width: 200px;
+            max-height: 200px;
+
+            object-fit: scale-down;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <p>sem contar que podemos usar margem e pading</p>
+
+    <a href="imagens-audio-video audio.mp3/Vídeo.mp4" target="_blank" rel="noopener">vídeo de teste</a> <br>
+
+    <picture>
+        <img src="imagens-audio-video audio.mp3/imagem-pequena.png" alt="imagem" dowload>
+        
+        <source srcset="imagem-grande.png" media="800px" type="png" >
+        <source srcset="imagem-pequena.png" media="801px" type="jpg">
+
+    </picture>
+
+    <audio src="imagens-audio-video audio.mp3/Audio.mp3"></audio>
+
+    <video controls autoplay loop poster="imagens-audio-video audio.mp3/imagem-grande.png" src="imagens-audio-video audio.mp3/Vídeo.mp4"></video>
+
+<iframe allowfullscreen referrerpolicy="no-referrer" src="https://www.alura.com.br/"></iframe>
+
+
+</body>
+</html>

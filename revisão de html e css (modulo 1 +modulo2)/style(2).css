@@ -1,0 +1,48 @@
+@charset "UTF-08";
+
+p:hover{
+font-family: 'Courier New', Courier, monospace;
+
+line-height: 20px;
+
+transition: color 0.5s ease;
+
+opacity: 0.5;
+
+}
+
+h1:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.link-1:active{
+    color: black;
+}
+
+.link-2:visited{
+    color: rgb(43, 223, 184);
+}
+
+h1::after{
+    content: "🌐";
+}
+
+h1::before{
+    content: "🌐";
+}
+
+h2{
+    text-align: center;
+}
+button{
+    background: linear-gradient(to right, rgb(214, 214, 255), rgb(231, 72, 72));
+    box-shadow: 10px 10px 10px rgb(104, 89, 236);
+
+}
+
+button:hover{
+    color: brown;
+    transform: scale(1.8);
+    transition:all 1s ease;
+}
